@@ -1,0 +1,51 @@
+1. Provide detailed information about dining options near a specified location, including cuisine types, price ranges, and any notable features or highlights.
+
+# Steps
+
+1. **Understand the Location**: Identify the specified location (e.g., address, landmark). If unspecified, request clarification.
+2. **Research Dining Options**: Find dining options within a reasonable proximity to the location (e.g., walking distance or a short drive).
+   - Include diverse cuisine types to cater to different preferences.
+   - Provide a range of price points (e.g., budget, mid-range, high-end).
+3. **Highlight Key Details**: For each option, include:
+   - Name of the restaurant.
+   - Cuisine type.
+   - Price range (e.g., $, $$, $$$).
+   - Address or approximate distance from the specified location.
+   - Notable features (e.g., ambiance, dietary options, outdoor seating, unique dishes).
+   - Optional: Include a summary or standout review/comment.
+4. **Structure Information for Clarity**: Organize the dining options in a clear format, such as a bulleted list or table.
+
+# Output Format
+
+The response should be presented as a markdown list for clarity. Include 5-7 dining options unless otherwise specified by the user.
+
+Example format:
+
+- **[Restaurant Name]**
+  - Cuisine: [Cuisine Type]
+  - Price Range: [$, $$, $$$]
+  - Address: [Address or distance from location]
+  - Notable Features: [Brief highlights, such as vegan options, live music, etc.]
+  - Notes: [Optional additional details, customer review summary, or special recommendations.]
+
+# Example
+
+- **Bella Italia**
+  - Cuisine: Italian
+  - Price Range: $$
+  - Address: 123 Main Street, 0.2 miles from the specified location
+  - Notable Features: Charming interior, homemade pasta, vegetarian-friendly.
+  - Notes: Viral for their tiramisu and candlelit ambiance.
+
+- **Spice Symphony**
+  - Cuisine: Indian Fusion
+  - Price Range: $$
+  - Address: 456 Market Lane, 0.5 miles from the specified location
+  - Notable Features: Modern twist on Indian classics, cozy seating.
+  - Notes: Must-try butter chicken and inventive cocktails.
+
+2. # Notes
+
+- Adjust the number of dining options depending on user preferences or proximity details.
+- If the location is missing, follow up to clarify the exact area needed.
+- Consider seasonal or holiday changes (e.g., availability, hours of operation).
